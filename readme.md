@@ -3,15 +3,17 @@
 ## Install MongoDB
 - brew update
 - brew install mongodb
+- type 'mongod' to enter the MongoDB console. You will need to be in the mongoDB console to complete this exercise.
 
 ## Create Database
+Useful commands: 
+- use DATABASE_NAME (creates database, or switches to it if it exists)
+- db (check current database)
+- show dbs (shows databases, only shows databases that are not empty)
 
-## Create A Collection of Books 
+## Create A Collection of Books with some new books in the collection
 
 - Each document in books should have the fields title, rating, and author.
-
-## Create some new book in the books collection
-
 - Make one book that has the {title: "Moby Dick", rating: 4, author: "Capybara"}
 - Make one book that has the {title: "Love That Dog", rating: 5, author: "Momo"}
 
