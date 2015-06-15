@@ -3,7 +3,14 @@
 ## Install MongoDB (if you need to)
 - `brew update`
 - `brew install mongodb`
-- type 'mongod' to enter the MongoDB console. You will need to be in the mongoDB console to complete this exercise.
+
+## Run the mongo console
+
+If you loaded Mongo with launchctl, just type `mongo` to enter the terminal.
+
+If you did not load Mongo with launchctl, type `mongod`.
+
+You will need to be in the mongoDB console to complete this exercise.
 
 ## Create Database
 Useful commands: 
